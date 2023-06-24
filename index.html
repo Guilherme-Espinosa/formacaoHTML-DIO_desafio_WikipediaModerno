@@ -5,31 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Principal</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
 
     <header>   
         <div class="logo">
-            <img src="assets/images/WikiLogo.png" width="200"/>
+            <img src="assets/images/WikiLogo2.png" width="200" alt="Logotipo do site Wikipédia, com os dizeres: 'Wikipédia, a enciclopédia livre'."/>
         </div>
     </header>
 
     <div class="bar"></div>
 
     <section class="content">
-        <nav class="sidebar">
-            <h2>Categorias</h2>
+        <nav class="sidebar"><span aria-label="Menú lateral de Categorias"></span>
+            <h2><span aria-label="Categorias">Categorias</span></h2>
             <ul>
-                <li><a href="#">Psicologia</a></li>
-                <li><a href="#">Congnição</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Categoria:Psicologia"><span aria-label="Psicologia">Psicologia</span></a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Categoria:Cogni%C3%A7%C3%A3o"><span aria-label="Cognição">Cognição</span></a></li>
             </ul>
         </nav>
 
         <main class="main">
-            
+            <article align="center" role="article">
+                <header>
+                    <h1>
+                        <span aria-label="Título do artigo:">Inteligências multiplas</span>
+                    </h1>
+                    <article align="justify" aria-readonly="true">
+                        <p>
+                            Denomina- se inteligências múltiplas à teoria desenvolvida a partir da década de 1980 por uma equipe de investigadores da Universidade de Harvard, liderada pelo psicólogo Howard Gardner, buscando analisar e descrever melhor o conceito de inteligência.
+                            <br aria-hidden="true">
+                            <br aria-hidden="true">Gardner afirmou que o conceito de inteligência, como tradicionalmente definido em psicometria (testes de QI) não era suficiente para descrever a grande variedade de habilidades cognitivas humanas. Desse modo, a teoria afirma que uma criança que aprende a multiplicar números facilmente não é necessariamente mais inteligente do que outra que tenha habilidades mais forte em outro tipo de inteligência. A criança que leva mais tempo para dominar uma multiplicação simples pode aprender melhor a multiplicar através de uma abordagem diferente; pode ser excelente em um campo fora da matemática; ou pode até estar a olhar e compreender o processo de multiplicação em um nível profundo. Neste último exemplo, uma compreensão mais profunda pode resultar em lentidão que parece (e pode) esconder uma inteligência matemática potencialmente maior do que a de uma criança que rapidamente memoriza a tabuada, apesar de uma compreensão menos detalhada do processo de multiplicação.
+                            <br aria-hidden="true">
+                            <br aria-hidden="true">A teoria recebe reações mistas da comunidade científica. Muitos psicólogos consideram que existem diferenças entre os conceitos de inteligência, que não são suportados pela prova empírica. É criticada por alguns, como Perry D. Klein, por ser uma teoria não falseável. Já Linda Gottfredson, uma das críticas, afirma que a teoria é bastante atrativa por sugerir que" todos podem ser inteligentes" de alguma forma, o que pode enviesar o estudo do tema.
+                        </p>
+                    </article>
+                </header>
+            </article>
         </main>
-
+<!-- Até aqui foi feita adaptação para acessibilidade -->
         <aside class="anchors">
             <h2>Neste Artigo</h2>
             <ul>
