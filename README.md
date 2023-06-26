@@ -2,6 +2,14 @@
 
 **Título:** Recriando Wikipedia, com um layout melhor :)
 
+---
+###### Status: Concluso.
+###### Deploy: [link](https://guilherme-espinosa.github.io/formacaoHTML-DIO_desafio_WikipediaModerno/ "Deploy no GitHub Pages").
+###### Diretório de referência: [link](https://github.com/Guilherme-Espinosa/FormacaoHTML.DIO "Meu diretório da Formação HTML - DIO")
+
+
+---
+
 ## Objetivo
 Este desafio consiste em treinar você com relação a estrutura do site, e também aplicar conhecimentos adiquiridos sobre semântica e acessibilidade.
 
