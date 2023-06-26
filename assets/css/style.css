@@ -5,6 +5,23 @@
     border-bottom: solid 1px #cdcdcd;
 }
 
+header .logo {
+    display: flex;
+    flex-direction: row;
+}
+
+header .logo img {
+    width: 20vw;
+    align-self: center;
+}
+
+header .logo h1 {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .content {
     max-width: 1440px;
     margin: auto;
@@ -15,6 +32,36 @@
     grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+article figure img {
+    width: 300px;
+}
+
+article figure figcaption {
+    font-size: smaller;
+}
+
+article a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+article p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+article ul{
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+}
+
+article ul li {
+    margin-top: 5px;
+    text-align: justify;
 }
 
 .footer {
