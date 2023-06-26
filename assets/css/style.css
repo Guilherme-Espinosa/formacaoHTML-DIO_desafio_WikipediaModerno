@@ -16,7 +16,7 @@ header .logo img {
 }
 
 header .logo h1 {
-    width: 80vw;
+    width: 60vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,7 +35,8 @@ header .logo h1 {
 }
 
 article figure img {
-    width: 300px;
+    width: 20vw;
+    border-radius: 5px;
 }
 
 article figure figcaption {
